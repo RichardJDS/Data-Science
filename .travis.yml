@@ -1,0 +1,12 @@
+language: r
+os:
+  - linux
+dist: xenial
+cache: packages
+
+r_binary_packages:
+  - devtools
+  - roxygen2
+
+after_success:
+  - Rscript -e 'devtools::install();devtools::test()'
