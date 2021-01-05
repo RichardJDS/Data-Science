@@ -1,25 +1,26 @@
-Package: fars
-Authors@R: 
-    person(given = "Yusuf",
-           family = "Ozdemir",
-           role = c("aut", "cre"),
-           email = "yusuf@ozdemir.be")
-Title: Read Fatality Analysis Reporting System (FARS) data
-Version: 0.0.1
-Description: COURSERA: BUILDING R PACKAGES, Peer-graded Assignment.
-Depends: R (>= 3.3.3)
-License: GPL-3
+Package: msdirCapstone
+Type: Package
+Title: NOAA dataset visualizations
+Version: 0.1.0
+Author: Daniel DeWaters
+Maintainer: Daniel DeWaters <dandewaters@gmail.com>
+Description: Contains functions for reading, cleaning, and making data
+    visualizations for the NOAA earthquakes dataset. Capstone project for the
+    Mastering Sofware Development in R Specialization provided by Johns Hopkins
+    University on Coursera.
+License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
 Imports:
-   dplyr,
-   maps,
-   readr,
-   tidyr,
-   tibble,
-   testthat,
-   magrittr
+    dplyr,
+    ggplot2,
+    leaflet,
+    lubridate,
+    magrittr,
+    readr,
+    stringr,
+    tidyr
 Suggests: knitr,
     rmarkdown,
     testthat

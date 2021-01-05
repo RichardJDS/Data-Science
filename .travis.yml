@@ -1,12 +1,4 @@
-language: r
-os:
-  - linux
-dist: xenial
+# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
+
+language: R
 cache: packages
-
-r_binary_packages:
-  - devtools
-  - roxygen2
-
-after_success:
-  - Rscript -e 'devtools::install();devtools::test()'

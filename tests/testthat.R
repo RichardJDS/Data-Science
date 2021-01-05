@@ -1,4 +1,11 @@
 library(testthat)
-library(fars)
+library(lubridate)
+library(leaflet)
+library(ggplot2)
+library(grid)
+library(tidyr)
+library(readr)
+library(dplyr)
+library(stringr)
 
-test_check("fars")
+test_check("msdirCapstone")
